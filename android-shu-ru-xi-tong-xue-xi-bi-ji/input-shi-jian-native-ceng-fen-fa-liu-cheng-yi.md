@@ -3,7 +3,7 @@
 android的Input子系统主要包括三个模块：EventHub、InputReader和InputDispatcher。EventHub使用epoll和notify机制，不断从设备节点中读取Input事件；InputReader负责将原始事件进行处理和封装；InputDispatcher负责将处理好的事件分发出去。这个系列笔记主要记录了我学习android Input子系统的一些成果。本篇首先谈谈Input子系统的创建。
 
 ## Input子系统创建流程时序图
-![111](./input-shi-jian-native-ceng-fen-fa-liu-cheng-yi-fig1.png)
+![](./input-shi-jian-native-ceng-fen-fa-liu-cheng-yi-fig1.png)
 
 ## Input子系统的创建流程
 
